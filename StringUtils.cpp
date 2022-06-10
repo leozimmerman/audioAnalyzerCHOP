@@ -9,7 +9,7 @@
 #include "StringUtils.h"
 
 namespace utils {
-    string valueTypeToString(ofxAAValue value) {
+    const char* valueTypeToString(ofxAAValue value) {
         for (auto const& pair : valuesMap){
             if (pair.second == value){
                 return pair.first;
@@ -18,7 +18,7 @@ namespace utils {
         return "-";
     }
     
-    string binsValueTypeToString(ofxAABinsValue value){
+    const char* binsValueTypeToString(ofxAABinsValue value){
         for (auto const& pair : binValuesMap){
             if (pair.second == value){
                 return pair.first;

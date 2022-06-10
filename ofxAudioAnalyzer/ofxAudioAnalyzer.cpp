@@ -27,6 +27,12 @@
 //-------------------------------------------------------
 void ofxAudioAnalyzer::setup(int sampleRate, int bufferSize, int channels){
     
+    if (sampleRate == _samplerate &&
+        bufferSize == _buffersize &&
+        channels == _channels) {
+        return;
+    }
+    
     _samplerate = sampleRate;
     _buffersize = bufferSize;
     _channels = channels;

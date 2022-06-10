@@ -42,7 +42,7 @@
 
 namespace utils {
     
-    static std::map<string, ofxAAValue> valuesMap = {
+    static std::map<const char*, ofxAAValue> valuesMap = {
         {"RMS", RMS},
         {"POWER", POWER},
         {"ZERO-CROSSING-RATE", ZERO_CROSSING_RATE},
@@ -109,7 +109,7 @@ namespace utils {
         {"NONE", NONE}
     };
     
-    static std::map<string, ofxAABinsValue> binValuesMap = {
+    static std::map<const char*, ofxAABinsValue> binValuesMap = {
         {"SPECTRUM", SPECTRUM},
         {"MEL-BANDS", MFCC_MEL_BANDS},
         {"GFCC-ERB-BANDS", GFCC_ERB_BANDS},
@@ -123,8 +123,8 @@ namespace utils {
         {"NONE_BINS", NONE_BINS}
     };
     
-    string valueTypeToString(ofxAAValue value);
-    string binsValueTypeToString(ofxAABinsValue value);
+    const char* valueTypeToString(ofxAAValue value);
+    const char* binsValueTypeToString(ofxAABinsValue value);
     
     ofxAAValue stringToValueType(string stringType);
     ofxAABinsValue stringToBinsValueType(string stringType);

@@ -20,6 +20,7 @@
 		B3AB358D2853AAF400DF6CEF /* ofxAAOnsetsAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3AB35812853AAF400DF6CEF /* ofxAAOnsetsAlgorithm.cpp */; };
 		B3AB358E2853AAF400DF6CEF /* ofxAASingleOutputAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3AB35882853AAF400DF6CEF /* ofxAASingleOutputAlgorithm.cpp */; };
 		B3AB358F2853AAF400DF6CEF /* ofxAABaseAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3AB35892853AAF400DF6CEF /* ofxAABaseAlgorithm.cpp */; };
+		B3AB35B42853ABEF00DF6CEF /* StringUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3AB35B22853ABEF00DF6CEF /* StringUtils.cpp */; };
 		E23329E31DF092C90002B4FE /* CPlusPlusCHOPExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E23329E11DF092C90002B4FE /* CPlusPlusCHOPExample.cpp */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,8 @@
 		B3AB35872853AAF400DF6CEF /* ofxAATwoVectorsOutputAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAATwoVectorsOutputAlgorithm.h; path = ofxAudioAnalyzer/algorithms/ofxAATwoVectorsOutputAlgorithm.h; sourceTree = "<group>"; };
 		B3AB35882853AAF400DF6CEF /* ofxAASingleOutputAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAASingleOutputAlgorithm.cpp; path = ofxAudioAnalyzer/algorithms/ofxAASingleOutputAlgorithm.cpp; sourceTree = "<group>"; };
 		B3AB35892853AAF400DF6CEF /* ofxAABaseAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAABaseAlgorithm.cpp; path = ofxAudioAnalyzer/algorithms/ofxAABaseAlgorithm.cpp; sourceTree = "<group>"; };
+		B3AB35B22853ABEF00DF6CEF /* StringUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringUtils.cpp; sourceTree = "<group>"; };
+		B3AB35B32853ABEF00DF6CEF /* StringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtils.h; sourceTree = "<group>"; };
 		E23329D61DF092AD0002B4FE /* CPlusPlusCHOPExample.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPlusPlusCHOPExample.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		E23329D91DF092AD0002B4FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		E23329DF1DF092C90002B4FE /* CHOP_CPlusPlusBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOP_CPlusPlusBase.h; sourceTree = SOURCE_ROOT; };
@@ -152,6 +155,8 @@
 				B3AB35292853A3E100DF6CEF /* ofxAudioAnalyzer */,
 				E23329DF1DF092C90002B4FE /* CHOP_CPlusPlusBase.h */,
 				E23329E01DF092C90002B4FE /* CPlusPlus_Common.h */,
+				B3AB35B22853ABEF00DF6CEF /* StringUtils.cpp */,
+				B3AB35B32853ABEF00DF6CEF /* StringUtils.h */,
 				E23329E11DF092C90002B4FE /* CPlusPlusCHOPExample.cpp */,
 				E23329E21DF092C90002B4FE /* CPlusPlusCHOPExample.h */,
 				E23329D91DF092AD0002B4FE /* Info.plist */,
@@ -233,6 +238,7 @@
 				B3AB358B2853AAF400DF6CEF /* ofxAAOneVectorOutputAlgorithm.cpp in Sources */,
 				B3AB358F2853AAF400DF6CEF /* ofxAABaseAlgorithm.cpp in Sources */,
 				B3AB35732853AAEA00DF6CEF /* ofxAudioAnalyzerUnit.cpp in Sources */,
+				B3AB35B42853ABEF00DF6CEF /* StringUtils.cpp in Sources */,
 				B3AB35742853AAEA00DF6CEF /* ofxAudioAnalyzer.cpp in Sources */,
 				B3AB35752853AAEA00DF6CEF /* ofxAAFactory.cpp in Sources */,
 				B3AB358C2853AAF400DF6CEF /* ofxAATwoTypesVectorOutputAlgorithm.cpp in Sources */,
