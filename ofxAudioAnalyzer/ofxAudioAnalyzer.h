@@ -26,7 +26,7 @@
 
 //
 #include "ofxAudioAnalyzerUnit.h"
-#include <JuceHeader.h>
+#include "CHOP_CPlusPlusBase.h"
 
 class ofxAudioAnalyzer{
  
@@ -34,7 +34,7 @@ class ofxAudioAnalyzer{
     
     void setup(int sampleRate, int bufferSize, int channels);
     void reset(int sampleRate, int bufferSize, int channels);
-    void analyze(const juce::AudioBuffer<float>& buffer);
+    void analyze(const OP_CHOPInput& cInput);
     void exit();
     
     int getSampleRate() const {return _samplerate;}

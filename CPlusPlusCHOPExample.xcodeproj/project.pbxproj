@@ -7,57 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B3AB35362853A3F400DF6CEF /* ofxAAFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3AB352A2853A3F400DF6CEF /* ofxAAFactory.cpp */; };
-		B3AB35372853A3F400DF6CEF /* ofxAAConfigurations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3AB352B2853A3F400DF6CEF /* ofxAAConfigurations.cpp */; };
-		B3AB35392853A3F400DF6CEF /* ofxAudioAnalyzer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3AB352D2853A3F400DF6CEF /* ofxAudioAnalyzer.cpp */; };
-		B3AB353A2853A3F400DF6CEF /* ofxAudioAnalyzerUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3AB352F2853A3F400DF6CEF /* ofxAudioAnalyzerUnit.cpp */; };
-		B3AB353B2853A3F400DF6CEF /* ofxAANetwork.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3AB35352853A3F400DF6CEF /* ofxAANetwork.cpp */; };
-		B3AB353F2853A42400DF6CEF /* StringUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3AB353E2853A42400DF6CEF /* StringUtils.cpp */; };
-		B3AB35552853A44700DF6CEF /* ofxAAOnsetsAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3AB35452853A44600DF6CEF /* ofxAAOnsetsAlgorithm.cpp */; };
-		B3AB35562853A44700DF6CEF /* ofxAAOneVectorOutputAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3AB35462853A44600DF6CEF /* ofxAAOneVectorOutputAlgorithm.cpp */; };
-		B3AB35572853A44700DF6CEF /* ofxAABaseAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3AB35472853A44600DF6CEF /* ofxAABaseAlgorithm.cpp */; };
-		B3AB35582853A44700DF6CEF /* ofxAATwoTypesVectorOutputAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3AB354A2853A44600DF6CEF /* ofxAATwoTypesVectorOutputAlgorithm.cpp */; };
-		B3AB35592853A44700DF6CEF /* ofxAATwoVectorsOutputAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3AB354E2853A44600DF6CEF /* ofxAATwoVectorsOutputAlgorithm.cpp */; };
-		B3AB355A2853A44700DF6CEF /* ofxAASingleOutputAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3AB35512853A44600DF6CEF /* ofxAASingleOutputAlgorithm.cpp */; };
 		B3AB35602853AA1600DF6CEF /* libessentia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AB355F2853AA1600DF6CEF /* libessentia.a */; };
 		B3AB35632853AA2E00DF6CEF /* libfftw3f.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AB35622853AA2E00DF6CEF /* libfftw3f.a */; };
+		B3AB35722853AAEA00DF6CEF /* ofxAAConfigurations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3AB35682853AAE900DF6CEF /* ofxAAConfigurations.cpp */; };
+		B3AB35732853AAEA00DF6CEF /* ofxAudioAnalyzerUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3AB356B2853AAE900DF6CEF /* ofxAudioAnalyzerUnit.cpp */; };
+		B3AB35742853AAEA00DF6CEF /* ofxAudioAnalyzer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3AB356C2853AAE900DF6CEF /* ofxAudioAnalyzer.cpp */; };
+		B3AB35752853AAEA00DF6CEF /* ofxAAFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3AB356F2853AAE900DF6CEF /* ofxAAFactory.cpp */; };
+		B3AB35762853AAEA00DF6CEF /* ofxAANetwork.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3AB35702853AAE900DF6CEF /* ofxAANetwork.cpp */; };
+		B3AB358A2853AAF400DF6CEF /* ofxAATwoVectorsOutputAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3AB35782853AAF400DF6CEF /* ofxAATwoVectorsOutputAlgorithm.cpp */; };
+		B3AB358B2853AAF400DF6CEF /* ofxAAOneVectorOutputAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3AB357D2853AAF400DF6CEF /* ofxAAOneVectorOutputAlgorithm.cpp */; };
+		B3AB358C2853AAF400DF6CEF /* ofxAATwoTypesVectorOutputAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3AB357F2853AAF400DF6CEF /* ofxAATwoTypesVectorOutputAlgorithm.cpp */; };
+		B3AB358D2853AAF400DF6CEF /* ofxAAOnsetsAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3AB35812853AAF400DF6CEF /* ofxAAOnsetsAlgorithm.cpp */; };
+		B3AB358E2853AAF400DF6CEF /* ofxAASingleOutputAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3AB35882853AAF400DF6CEF /* ofxAASingleOutputAlgorithm.cpp */; };
+		B3AB358F2853AAF400DF6CEF /* ofxAABaseAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3AB35892853AAF400DF6CEF /* ofxAABaseAlgorithm.cpp */; };
 		E23329E31DF092C90002B4FE /* CPlusPlusCHOPExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E23329E11DF092C90002B4FE /* CPlusPlusCHOPExample.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B3AB352A2853A3F400DF6CEF /* ofxAAFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAAFactory.cpp; path = ../../../../../../../../Users/leo/Development/JUCE/myProjects/EssentiaPlugin/Source/ofxAudioAnalyzer/ofxAAFactory.cpp; sourceTree = "<group>"; };
-		B3AB352B2853A3F400DF6CEF /* ofxAAConfigurations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAAConfigurations.cpp; path = ../../../../../../../../Users/leo/Development/JUCE/myProjects/EssentiaPlugin/Source/ofxAudioAnalyzer/ofxAAConfigurations.cpp; sourceTree = "<group>"; };
-		B3AB352D2853A3F400DF6CEF /* ofxAudioAnalyzer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAudioAnalyzer.cpp; path = ../../../../../../../../Users/leo/Development/JUCE/myProjects/EssentiaPlugin/Source/ofxAudioAnalyzer/ofxAudioAnalyzer.cpp; sourceTree = "<group>"; };
-		B3AB352E2853A3F400DF6CEF /* ofxAAConfigurations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAAConfigurations.h; path = ../../../../../../../../Users/leo/Development/JUCE/myProjects/EssentiaPlugin/Source/ofxAudioAnalyzer/ofxAAConfigurations.h; sourceTree = "<group>"; };
-		B3AB352F2853A3F400DF6CEF /* ofxAudioAnalyzerUnit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAudioAnalyzerUnit.cpp; path = ../../../../../../../../Users/leo/Development/JUCE/myProjects/EssentiaPlugin/Source/ofxAudioAnalyzer/ofxAudioAnalyzerUnit.cpp; sourceTree = "<group>"; };
-		B3AB35302853A3F400DF6CEF /* ofxAAFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAAFactory.h; path = ../../../../../../../../Users/leo/Development/JUCE/myProjects/EssentiaPlugin/Source/ofxAudioAnalyzer/ofxAAFactory.h; sourceTree = "<group>"; };
-		B3AB35312853A3F400DF6CEF /* ofxAudioAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAudioAnalyzer.h; path = ../../../../../../../../Users/leo/Development/JUCE/myProjects/EssentiaPlugin/Source/ofxAudioAnalyzer/ofxAudioAnalyzer.h; sourceTree = "<group>"; };
-		B3AB35322853A3F400DF6CEF /* ofxAANetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAANetwork.h; path = ../../../../../../../../Users/leo/Development/JUCE/myProjects/EssentiaPlugin/Source/ofxAudioAnalyzer/ofxAANetwork.h; sourceTree = "<group>"; };
-		B3AB35332853A3F400DF6CEF /* ofxAudioAnalyzerAlgorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAudioAnalyzerAlgorithms.h; path = ../../../../../../../../Users/leo/Development/JUCE/myProjects/EssentiaPlugin/Source/ofxAudioAnalyzer/ofxAudioAnalyzerAlgorithms.h; sourceTree = "<group>"; };
-		B3AB35342853A3F400DF6CEF /* ofxAudioAnalyzerUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAudioAnalyzerUnit.h; path = ../../../../../../../../Users/leo/Development/JUCE/myProjects/EssentiaPlugin/Source/ofxAudioAnalyzer/ofxAudioAnalyzerUnit.h; sourceTree = "<group>"; };
-		B3AB35352853A3F400DF6CEF /* ofxAANetwork.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAANetwork.cpp; path = ../../../../../../../../Users/leo/Development/JUCE/myProjects/EssentiaPlugin/Source/ofxAudioAnalyzer/ofxAANetwork.cpp; sourceTree = "<group>"; };
-		B3AB353D2853A42400DF6CEF /* StringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtils.h; sourceTree = "<group>"; };
-		B3AB353E2853A42400DF6CEF /* StringUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringUtils.cpp; sourceTree = "<group>"; };
-		B3AB35432853A44600DF6CEF /* ofxAAValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAAValues.h; path = ../../../../../../../../Users/leo/Development/JUCE/myProjects/EssentiaPlugin/Source/ofxAudioAnalyzer/algorithms/ofxAAValues.h; sourceTree = "<group>"; };
-		B3AB35442853A44600DF6CEF /* ofxAATwoTypesVectorOutputAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAATwoTypesVectorOutputAlgorithm.h; path = ../../../../../../../../Users/leo/Development/JUCE/myProjects/EssentiaPlugin/Source/ofxAudioAnalyzer/algorithms/ofxAATwoTypesVectorOutputAlgorithm.h; sourceTree = "<group>"; };
-		B3AB35452853A44600DF6CEF /* ofxAAOnsetsAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAAOnsetsAlgorithm.cpp; path = ../../../../../../../../Users/leo/Development/JUCE/myProjects/EssentiaPlugin/Source/ofxAudioAnalyzer/algorithms/ofxAAOnsetsAlgorithm.cpp; sourceTree = "<group>"; };
-		B3AB35462853A44600DF6CEF /* ofxAAOneVectorOutputAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAAOneVectorOutputAlgorithm.cpp; path = ../../../../../../../../Users/leo/Development/JUCE/myProjects/EssentiaPlugin/Source/ofxAudioAnalyzer/algorithms/ofxAAOneVectorOutputAlgorithm.cpp; sourceTree = "<group>"; };
-		B3AB35472853A44600DF6CEF /* ofxAABaseAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAABaseAlgorithm.cpp; path = ../../../../../../../../Users/leo/Development/JUCE/myProjects/EssentiaPlugin/Source/ofxAudioAnalyzer/algorithms/ofxAABaseAlgorithm.cpp; sourceTree = "<group>"; };
-		B3AB35482853A44600DF6CEF /* ofxAASingleOutputAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAASingleOutputAlgorithm.h; path = ../../../../../../../../Users/leo/Development/JUCE/myProjects/EssentiaPlugin/Source/ofxAudioAnalyzer/algorithms/ofxAASingleOutputAlgorithm.h; sourceTree = "<group>"; };
-		B3AB35492853A44600DF6CEF /* ofxAAAlgorithmTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAAAlgorithmTypes.h; path = ../../../../../../../../Users/leo/Development/JUCE/myProjects/EssentiaPlugin/Source/ofxAudioAnalyzer/algorithms/ofxAAAlgorithmTypes.h; sourceTree = "<group>"; };
-		B3AB354A2853A44600DF6CEF /* ofxAATwoTypesVectorOutputAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAATwoTypesVectorOutputAlgorithm.cpp; path = ../../../../../../../../Users/leo/Development/JUCE/myProjects/EssentiaPlugin/Source/ofxAudioAnalyzer/algorithms/ofxAATwoTypesVectorOutputAlgorithm.cpp; sourceTree = "<group>"; };
-		B3AB354B2853A44600DF6CEF /* ofxAADistributionShapeAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAADistributionShapeAlgorithm.h; path = ../../../../../../../../Users/leo/Development/JUCE/myProjects/EssentiaPlugin/Source/ofxAudioAnalyzer/algorithms/ofxAADistributionShapeAlgorithm.h; sourceTree = "<group>"; };
-		B3AB354C2853A44600DF6CEF /* ofxAATwoVectorsOutputAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAATwoVectorsOutputAlgorithm.h; path = ../../../../../../../../Users/leo/Development/JUCE/myProjects/EssentiaPlugin/Source/ofxAudioAnalyzer/algorithms/ofxAATwoVectorsOutputAlgorithm.h; sourceTree = "<group>"; };
-		B3AB354D2853A44600DF6CEF /* ofxAAOnsetsAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAAOnsetsAlgorithm.h; path = ../../../../../../../../Users/leo/Development/JUCE/myProjects/EssentiaPlugin/Source/ofxAudioAnalyzer/algorithms/ofxAAOnsetsAlgorithm.h; sourceTree = "<group>"; };
-		B3AB354E2853A44600DF6CEF /* ofxAATwoVectorsOutputAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAATwoVectorsOutputAlgorithm.cpp; path = ../../../../../../../../Users/leo/Development/JUCE/myProjects/EssentiaPlugin/Source/ofxAudioAnalyzer/algorithms/ofxAATwoVectorsOutputAlgorithm.cpp; sourceTree = "<group>"; };
-		B3AB354F2853A44600DF6CEF /* ofxAAOneVectorOutputAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAAOneVectorOutputAlgorithm.h; path = ../../../../../../../../Users/leo/Development/JUCE/myProjects/EssentiaPlugin/Source/ofxAudioAnalyzer/algorithms/ofxAAOneVectorOutputAlgorithm.h; sourceTree = "<group>"; };
-		B3AB35502853A44600DF6CEF /* ofxAANSGConstantQAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAANSGConstantQAlgorithm.h; path = ../../../../../../../../Users/leo/Development/JUCE/myProjects/EssentiaPlugin/Source/ofxAudioAnalyzer/algorithms/ofxAANSGConstantQAlgorithm.h; sourceTree = "<group>"; };
-		B3AB35512853A44600DF6CEF /* ofxAASingleOutputAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAASingleOutputAlgorithm.cpp; path = ../../../../../../../../Users/leo/Development/JUCE/myProjects/EssentiaPlugin/Source/ofxAudioAnalyzer/algorithms/ofxAASingleOutputAlgorithm.cpp; sourceTree = "<group>"; };
-		B3AB35522853A44600DF6CEF /* ofxAAVectorVectorOutputAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAAVectorVectorOutputAlgorithm.h; path = ../../../../../../../../Users/leo/Development/JUCE/myProjects/EssentiaPlugin/Source/ofxAudioAnalyzer/algorithms/ofxAAVectorVectorOutputAlgorithm.h; sourceTree = "<group>"; };
-		B3AB35532853A44600DF6CEF /* ofxAABaseAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAABaseAlgorithm.h; path = ../../../../../../../../Users/leo/Development/JUCE/myProjects/EssentiaPlugin/Source/ofxAudioAnalyzer/algorithms/ofxAABaseAlgorithm.h; sourceTree = "<group>"; };
-		B3AB35542853A44600DF6CEF /* ofxAAVectorComplexOutputAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAAVectorComplexOutputAlgorithm.h; path = ../../../../../../../../Users/leo/Development/JUCE/myProjects/EssentiaPlugin/Source/ofxAudioAnalyzer/algorithms/ofxAAVectorComplexOutputAlgorithm.h; sourceTree = "<group>"; };
 		B3AB355F2853AA1600DF6CEF /* libessentia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libessentia.a; path = Libs/essentia/lib/libessentia.a; sourceTree = "<group>"; };
 		B3AB35622853AA2E00DF6CEF /* libfftw3f.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfftw3f.a; path = Libs/fftw3f/lib/libfftw3f.a; sourceTree = "<group>"; };
+		B3AB35672853AAE900DF6CEF /* ofxAudioAnalyzerUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAudioAnalyzerUnit.h; path = ofxAudioAnalyzer/ofxAudioAnalyzerUnit.h; sourceTree = "<group>"; };
+		B3AB35682853AAE900DF6CEF /* ofxAAConfigurations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAAConfigurations.cpp; path = ofxAudioAnalyzer/ofxAAConfigurations.cpp; sourceTree = "<group>"; };
+		B3AB35692853AAE900DF6CEF /* ofxAANetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAANetwork.h; path = ofxAudioAnalyzer/ofxAANetwork.h; sourceTree = "<group>"; };
+		B3AB356A2853AAE900DF6CEF /* ofxAudioAnalyzerAlgorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAudioAnalyzerAlgorithms.h; path = ofxAudioAnalyzer/ofxAudioAnalyzerAlgorithms.h; sourceTree = "<group>"; };
+		B3AB356B2853AAE900DF6CEF /* ofxAudioAnalyzerUnit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAudioAnalyzerUnit.cpp; path = ofxAudioAnalyzer/ofxAudioAnalyzerUnit.cpp; sourceTree = "<group>"; };
+		B3AB356C2853AAE900DF6CEF /* ofxAudioAnalyzer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAudioAnalyzer.cpp; path = ofxAudioAnalyzer/ofxAudioAnalyzer.cpp; sourceTree = "<group>"; };
+		B3AB356D2853AAE900DF6CEF /* ofxAAFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAAFactory.h; path = ofxAudioAnalyzer/ofxAAFactory.h; sourceTree = "<group>"; };
+		B3AB356E2853AAE900DF6CEF /* ofxAAConfigurations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAAConfigurations.h; path = ofxAudioAnalyzer/ofxAAConfigurations.h; sourceTree = "<group>"; };
+		B3AB356F2853AAE900DF6CEF /* ofxAAFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAAFactory.cpp; path = ofxAudioAnalyzer/ofxAAFactory.cpp; sourceTree = "<group>"; };
+		B3AB35702853AAE900DF6CEF /* ofxAANetwork.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAANetwork.cpp; path = ofxAudioAnalyzer/ofxAANetwork.cpp; sourceTree = "<group>"; };
+		B3AB35712853AAEA00DF6CEF /* ofxAudioAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAudioAnalyzer.h; path = ofxAudioAnalyzer/ofxAudioAnalyzer.h; sourceTree = "<group>"; };
+		B3AB35782853AAF400DF6CEF /* ofxAATwoVectorsOutputAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAATwoVectorsOutputAlgorithm.cpp; path = ofxAudioAnalyzer/algorithms/ofxAATwoVectorsOutputAlgorithm.cpp; sourceTree = "<group>"; };
+		B3AB35792853AAF400DF6CEF /* ofxAAOnsetsAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAAOnsetsAlgorithm.h; path = ofxAudioAnalyzer/algorithms/ofxAAOnsetsAlgorithm.h; sourceTree = "<group>"; };
+		B3AB357A2853AAF400DF6CEF /* ofxAANSGConstantQAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAANSGConstantQAlgorithm.h; path = ofxAudioAnalyzer/algorithms/ofxAANSGConstantQAlgorithm.h; sourceTree = "<group>"; };
+		B3AB357B2853AAF400DF6CEF /* ofxAAVectorComplexOutputAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAAVectorComplexOutputAlgorithm.h; path = ofxAudioAnalyzer/algorithms/ofxAAVectorComplexOutputAlgorithm.h; sourceTree = "<group>"; };
+		B3AB357C2853AAF400DF6CEF /* ofxAAOneVectorOutputAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAAOneVectorOutputAlgorithm.h; path = ofxAudioAnalyzer/algorithms/ofxAAOneVectorOutputAlgorithm.h; sourceTree = "<group>"; };
+		B3AB357D2853AAF400DF6CEF /* ofxAAOneVectorOutputAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAAOneVectorOutputAlgorithm.cpp; path = ofxAudioAnalyzer/algorithms/ofxAAOneVectorOutputAlgorithm.cpp; sourceTree = "<group>"; };
+		B3AB357E2853AAF400DF6CEF /* ofxAAAlgorithmTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAAAlgorithmTypes.h; path = ofxAudioAnalyzer/algorithms/ofxAAAlgorithmTypes.h; sourceTree = "<group>"; };
+		B3AB357F2853AAF400DF6CEF /* ofxAATwoTypesVectorOutputAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAATwoTypesVectorOutputAlgorithm.cpp; path = ofxAudioAnalyzer/algorithms/ofxAATwoTypesVectorOutputAlgorithm.cpp; sourceTree = "<group>"; };
+		B3AB35802853AAF400DF6CEF /* ofxAABaseAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAABaseAlgorithm.h; path = ofxAudioAnalyzer/algorithms/ofxAABaseAlgorithm.h; sourceTree = "<group>"; };
+		B3AB35812853AAF400DF6CEF /* ofxAAOnsetsAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAAOnsetsAlgorithm.cpp; path = ofxAudioAnalyzer/algorithms/ofxAAOnsetsAlgorithm.cpp; sourceTree = "<group>"; };
+		B3AB35822853AAF400DF6CEF /* ofxAAValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAAValues.h; path = ofxAudioAnalyzer/algorithms/ofxAAValues.h; sourceTree = "<group>"; };
+		B3AB35832853AAF400DF6CEF /* ofxAADistributionShapeAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAADistributionShapeAlgorithm.h; path = ofxAudioAnalyzer/algorithms/ofxAADistributionShapeAlgorithm.h; sourceTree = "<group>"; };
+		B3AB35842853AAF400DF6CEF /* ofxAASingleOutputAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAASingleOutputAlgorithm.h; path = ofxAudioAnalyzer/algorithms/ofxAASingleOutputAlgorithm.h; sourceTree = "<group>"; };
+		B3AB35852853AAF400DF6CEF /* ofxAATwoTypesVectorOutputAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAATwoTypesVectorOutputAlgorithm.h; path = ofxAudioAnalyzer/algorithms/ofxAATwoTypesVectorOutputAlgorithm.h; sourceTree = "<group>"; };
+		B3AB35862853AAF400DF6CEF /* ofxAAVectorVectorOutputAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAAVectorVectorOutputAlgorithm.h; path = ofxAudioAnalyzer/algorithms/ofxAAVectorVectorOutputAlgorithm.h; sourceTree = "<group>"; };
+		B3AB35872853AAF400DF6CEF /* ofxAATwoVectorsOutputAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxAATwoVectorsOutputAlgorithm.h; path = ofxAudioAnalyzer/algorithms/ofxAATwoVectorsOutputAlgorithm.h; sourceTree = "<group>"; };
+		B3AB35882853AAF400DF6CEF /* ofxAASingleOutputAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAASingleOutputAlgorithm.cpp; path = ofxAudioAnalyzer/algorithms/ofxAASingleOutputAlgorithm.cpp; sourceTree = "<group>"; };
+		B3AB35892853AAF400DF6CEF /* ofxAABaseAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAABaseAlgorithm.cpp; path = ofxAudioAnalyzer/algorithms/ofxAABaseAlgorithm.cpp; sourceTree = "<group>"; };
 		E23329D61DF092AD0002B4FE /* CPlusPlusCHOPExample.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPlusPlusCHOPExample.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		E23329D91DF092AD0002B4FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		E23329DF1DF092C90002B4FE /* CHOP_CPlusPlusBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOP_CPlusPlusBase.h; sourceTree = SOURCE_ROOT; };
@@ -82,20 +79,18 @@
 		B3AB35292853A3E100DF6CEF /* ofxAudioAnalyzer */ = {
 			isa = PBXGroup;
 			children = (
+				B3AB35682853AAE900DF6CEF /* ofxAAConfigurations.cpp */,
+				B3AB356E2853AAE900DF6CEF /* ofxAAConfigurations.h */,
+				B3AB356F2853AAE900DF6CEF /* ofxAAFactory.cpp */,
+				B3AB356D2853AAE900DF6CEF /* ofxAAFactory.h */,
+				B3AB35702853AAE900DF6CEF /* ofxAANetwork.cpp */,
+				B3AB35692853AAE900DF6CEF /* ofxAANetwork.h */,
+				B3AB356C2853AAE900DF6CEF /* ofxAudioAnalyzer.cpp */,
+				B3AB35712853AAEA00DF6CEF /* ofxAudioAnalyzer.h */,
+				B3AB356A2853AAE900DF6CEF /* ofxAudioAnalyzerAlgorithms.h */,
+				B3AB356B2853AAE900DF6CEF /* ofxAudioAnalyzerUnit.cpp */,
+				B3AB35672853AAE900DF6CEF /* ofxAudioAnalyzerUnit.h */,
 				B3AB35422853A43900DF6CEF /* algorithms */,
-				B3AB353E2853A42400DF6CEF /* StringUtils.cpp */,
-				B3AB353D2853A42400DF6CEF /* StringUtils.h */,
-				B3AB352B2853A3F400DF6CEF /* ofxAAConfigurations.cpp */,
-				B3AB352E2853A3F400DF6CEF /* ofxAAConfigurations.h */,
-				B3AB352A2853A3F400DF6CEF /* ofxAAFactory.cpp */,
-				B3AB35302853A3F400DF6CEF /* ofxAAFactory.h */,
-				B3AB35352853A3F400DF6CEF /* ofxAANetwork.cpp */,
-				B3AB35322853A3F400DF6CEF /* ofxAANetwork.h */,
-				B3AB352D2853A3F400DF6CEF /* ofxAudioAnalyzer.cpp */,
-				B3AB35312853A3F400DF6CEF /* ofxAudioAnalyzer.h */,
-				B3AB35332853A3F400DF6CEF /* ofxAudioAnalyzerAlgorithms.h */,
-				B3AB352F2853A3F400DF6CEF /* ofxAudioAnalyzerUnit.cpp */,
-				B3AB35342853A3F400DF6CEF /* ofxAudioAnalyzerUnit.h */,
 			);
 			name = ofxAudioAnalyzer;
 			sourceTree = "<group>";
@@ -103,24 +98,24 @@
 		B3AB35422853A43900DF6CEF /* algorithms */ = {
 			isa = PBXGroup;
 			children = (
-				B3AB35492853A44600DF6CEF /* ofxAAAlgorithmTypes.h */,
-				B3AB35472853A44600DF6CEF /* ofxAABaseAlgorithm.cpp */,
-				B3AB35532853A44600DF6CEF /* ofxAABaseAlgorithm.h */,
-				B3AB354B2853A44600DF6CEF /* ofxAADistributionShapeAlgorithm.h */,
-				B3AB35502853A44600DF6CEF /* ofxAANSGConstantQAlgorithm.h */,
-				B3AB35462853A44600DF6CEF /* ofxAAOneVectorOutputAlgorithm.cpp */,
-				B3AB354F2853A44600DF6CEF /* ofxAAOneVectorOutputAlgorithm.h */,
-				B3AB35452853A44600DF6CEF /* ofxAAOnsetsAlgorithm.cpp */,
-				B3AB354D2853A44600DF6CEF /* ofxAAOnsetsAlgorithm.h */,
-				B3AB35512853A44600DF6CEF /* ofxAASingleOutputAlgorithm.cpp */,
-				B3AB35482853A44600DF6CEF /* ofxAASingleOutputAlgorithm.h */,
-				B3AB354A2853A44600DF6CEF /* ofxAATwoTypesVectorOutputAlgorithm.cpp */,
-				B3AB35442853A44600DF6CEF /* ofxAATwoTypesVectorOutputAlgorithm.h */,
-				B3AB354E2853A44600DF6CEF /* ofxAATwoVectorsOutputAlgorithm.cpp */,
-				B3AB354C2853A44600DF6CEF /* ofxAATwoVectorsOutputAlgorithm.h */,
-				B3AB35432853A44600DF6CEF /* ofxAAValues.h */,
-				B3AB35542853A44600DF6CEF /* ofxAAVectorComplexOutputAlgorithm.h */,
-				B3AB35522853A44600DF6CEF /* ofxAAVectorVectorOutputAlgorithm.h */,
+				B3AB357E2853AAF400DF6CEF /* ofxAAAlgorithmTypes.h */,
+				B3AB35892853AAF400DF6CEF /* ofxAABaseAlgorithm.cpp */,
+				B3AB35802853AAF400DF6CEF /* ofxAABaseAlgorithm.h */,
+				B3AB35832853AAF400DF6CEF /* ofxAADistributionShapeAlgorithm.h */,
+				B3AB357A2853AAF400DF6CEF /* ofxAANSGConstantQAlgorithm.h */,
+				B3AB357D2853AAF400DF6CEF /* ofxAAOneVectorOutputAlgorithm.cpp */,
+				B3AB357C2853AAF400DF6CEF /* ofxAAOneVectorOutputAlgorithm.h */,
+				B3AB35812853AAF400DF6CEF /* ofxAAOnsetsAlgorithm.cpp */,
+				B3AB35792853AAF400DF6CEF /* ofxAAOnsetsAlgorithm.h */,
+				B3AB35882853AAF400DF6CEF /* ofxAASingleOutputAlgorithm.cpp */,
+				B3AB35842853AAF400DF6CEF /* ofxAASingleOutputAlgorithm.h */,
+				B3AB357F2853AAF400DF6CEF /* ofxAATwoTypesVectorOutputAlgorithm.cpp */,
+				B3AB35852853AAF400DF6CEF /* ofxAATwoTypesVectorOutputAlgorithm.h */,
+				B3AB35782853AAF400DF6CEF /* ofxAATwoVectorsOutputAlgorithm.cpp */,
+				B3AB35872853AAF400DF6CEF /* ofxAATwoVectorsOutputAlgorithm.h */,
+				B3AB35822853AAF400DF6CEF /* ofxAAValues.h */,
+				B3AB357B2853AAF400DF6CEF /* ofxAAVectorComplexOutputAlgorithm.h */,
+				B3AB35862853AAF400DF6CEF /* ofxAAVectorVectorOutputAlgorithm.h */,
 			);
 			name = algorithms;
 			sourceTree = "<group>";
@@ -232,19 +227,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3AB35582853A44700DF6CEF /* ofxAATwoTypesVectorOutputAlgorithm.cpp in Sources */,
-				B3AB353A2853A3F400DF6CEF /* ofxAudioAnalyzerUnit.cpp in Sources */,
-				B3AB35362853A3F400DF6CEF /* ofxAAFactory.cpp in Sources */,
-				B3AB355A2853A44700DF6CEF /* ofxAASingleOutputAlgorithm.cpp in Sources */,
-				B3AB35572853A44700DF6CEF /* ofxAABaseAlgorithm.cpp in Sources */,
-				B3AB35562853A44700DF6CEF /* ofxAAOneVectorOutputAlgorithm.cpp in Sources */,
+				B3AB358A2853AAF400DF6CEF /* ofxAATwoVectorsOutputAlgorithm.cpp in Sources */,
+				B3AB358D2853AAF400DF6CEF /* ofxAAOnsetsAlgorithm.cpp in Sources */,
+				B3AB35722853AAEA00DF6CEF /* ofxAAConfigurations.cpp in Sources */,
+				B3AB358B2853AAF400DF6CEF /* ofxAAOneVectorOutputAlgorithm.cpp in Sources */,
+				B3AB358F2853AAF400DF6CEF /* ofxAABaseAlgorithm.cpp in Sources */,
+				B3AB35732853AAEA00DF6CEF /* ofxAudioAnalyzerUnit.cpp in Sources */,
+				B3AB35742853AAEA00DF6CEF /* ofxAudioAnalyzer.cpp in Sources */,
+				B3AB35752853AAEA00DF6CEF /* ofxAAFactory.cpp in Sources */,
+				B3AB358C2853AAF400DF6CEF /* ofxAATwoTypesVectorOutputAlgorithm.cpp in Sources */,
+				B3AB35762853AAEA00DF6CEF /* ofxAANetwork.cpp in Sources */,
+				B3AB358E2853AAF400DF6CEF /* ofxAASingleOutputAlgorithm.cpp in Sources */,
 				E23329E31DF092C90002B4FE /* CPlusPlusCHOPExample.cpp in Sources */,
-				B3AB35552853A44700DF6CEF /* ofxAAOnsetsAlgorithm.cpp in Sources */,
-				B3AB35392853A3F400DF6CEF /* ofxAudioAnalyzer.cpp in Sources */,
-				B3AB353F2853A42400DF6CEF /* StringUtils.cpp in Sources */,
-				B3AB353B2853A3F400DF6CEF /* ofxAANetwork.cpp in Sources */,
-				B3AB35592853A44700DF6CEF /* ofxAATwoVectorsOutputAlgorithm.cpp in Sources */,
-				B3AB35372853A3F400DF6CEF /* ofxAAConfigurations.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

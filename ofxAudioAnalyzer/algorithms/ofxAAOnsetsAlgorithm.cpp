@@ -24,7 +24,6 @@
 
 #include "ofxAAConfigurations.h"
 #include "ofxAAOnsetsAlgorithm.h"
-#include <JuceHeader.h>
 
 #define ONSETS_DETECTIONS_BUFFER_SIZE 32 //64
 
@@ -199,20 +198,18 @@ bool ofxAAOnsetsAlgorithm::onsetBufferEvaluation (Real iDetectHfc, Real iDetectC
     
 }
 //----------------------------------------------
+std::chrono::steady_clock::time_point beginTimer = std::chrono::steady_clock::now();
 bool ofxAAOnsetsAlgorithm::onsetTimeThresholdEvaluation(){
-    
-    bool onsetTimeEvaluation = false;
-    
-    long long currentTime = juce::Time::getCurrentTime().toMilliseconds();
-    
+    std::chrono::steady_clock::time_point end = std::chrono::steady_clock::now();
     //elapsed time since last onset:
-    long long elapsed = currentTime - lastOnsetTime;
+    auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds> (end - beginTimer).count();
     
     if (elapsed>timeThreshold){
-        onsetTimeEvaluation = true;
-        lastOnsetTime = currentTime;
+        beginTimer = std::chrono::steady_clock::now();
+        return true;
+    } else {
+        return false;
     }
-    return onsetTimeEvaluation;
 }
 //----------------------------------------------
 bool ofxAAOnsetsAlgorithm::onsetBufferNumThresholdEvaluation(){

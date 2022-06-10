@@ -769,7 +769,7 @@ namespace ofxaa {
                 return onsets->getValue();
                 
             case NONE:
-                juce::Logger::outputDebugString("ofxAANetwork: getValue() for NONE value type");
+                cout << "ofxAANetwork: getValue() for NONE value type" << endl;
                 return 0.0;
                 
             default:
@@ -791,7 +791,7 @@ namespace ofxaa {
                 return predominantPitchMelodia->getValues2(smooth, normalized);
                 
             case NONE_BINS:
-                juce::Logger::outputDebugString("ofxAANetwork: getValues() for NONE_BINS type");
+                cout << "ofxAANetwork: getValues() for NONE_BINS type" << endl;
                 return r;
                 
             default:
@@ -932,7 +932,7 @@ namespace ofxaa {
                 return onsets;
                 
             case NONE:
-                juce::Logger::outputDebugString("ofxAANetwork: getValue() for NONE value type");
+                cout << "ofxAANetwork: getValue() for NONE value type" << endl;
                 return NULL;
         }
     }
@@ -962,7 +962,7 @@ namespace ofxaa {
                 return predominantPitchMelodia;
                 
             case NONE_BINS:
-                juce::Logger::outputDebugString("ofxAANetwork: getValues() for NONE_BINS type.");
+                cout << "ofxAANetwork: getValues() for NONE_BINS type." << endl;
                 return NULL;
         }
     }

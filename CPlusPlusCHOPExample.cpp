@@ -36,17 +36,17 @@ FillCHOPPluginInfo(CHOP_PluginInfo *info)
 	// The opType is the unique name for this CHOP. It must start with a 
 	// capital A-Z character, and all the following characters must lower case
 	// or numbers (a-z, 0-9)
-	info->customOPInfo.opType->setString("Customsignal");
+	info->customOPInfo.opType->setString("Audioanalyzer");
 
 	// The opLabel is the text that will show up in the OP Create Dialog
-	info->customOPInfo.opLabel->setString("Custom Signal");
+	info->customOPInfo.opLabel->setString("Audio Analyzer");
 
 	// Information about the author of this OP
-	info->customOPInfo.authorName->setString("Author Name");
-	info->customOPInfo.authorEmail->setString("email@email.com");
+	info->customOPInfo.authorName->setString("Leo Zimmerman");
+	info->customOPInfo.authorEmail->setString("leozimmerman@gmail.com");
 
 	// This CHOP can work with 0 inputs
-	info->customOPInfo.minInputs = 0;
+	info->customOPInfo.minInputs = 1;
 
 	// It can accept up to 1 input though, which changes it's behavior
 	info->customOPInfo.maxInputs = 1;

@@ -26,7 +26,6 @@
 
 #include "ofxAudioAnalyzerAlgorithms.h"
 #include "ofxAAValues.h"
-#include <JuceHeader.h>
 
 
 #define ACCUMULATED_SIGNAL_MULTIPLIER 20
