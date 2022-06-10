@@ -13,6 +13,7 @@
 */
 
 #include "CHOP_CPlusPlusBase.h"
+#include "ofxAudioAnalyzer.h"
 
 /*
 
@@ -70,6 +71,7 @@ private:
 	// In this example this value will be incremented each time the execute()
 	// function is called, then passes back to the CHOP 
 	int32_t				myExecuteCount;
+    ofxAudioAnalyzer    audioAnalyzer;
 
 
 	double				myOffset;
