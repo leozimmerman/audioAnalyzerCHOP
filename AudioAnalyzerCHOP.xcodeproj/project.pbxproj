@@ -58,7 +58,7 @@
 		B3AB35892853AAF400DF6CEF /* ofxAABaseAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxAABaseAlgorithm.cpp; path = ofxAudioAnalyzer/algorithms/ofxAABaseAlgorithm.cpp; sourceTree = "<group>"; };
 		B3AB35B22853ABEF00DF6CEF /* StringUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringUtils.cpp; sourceTree = "<group>"; };
 		B3AB35B32853ABEF00DF6CEF /* StringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtils.h; sourceTree = "<group>"; };
-		E23329D61DF092AD0002B4FE /* CPlusPlusCHOPExample.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPlusPlusCHOPExample.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23329D61DF092AD0002B4FE /* AudioAnalyzerCHOP.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioAnalyzerCHOP.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		E23329D91DF092AD0002B4FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		E23329DF1DF092C90002B4FE /* CHOP_CPlusPlusBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOP_CPlusPlusBase.h; sourceTree = SOURCE_ROOT; };
 		E23329E01DF092C90002B4FE /* CPlusPlus_Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPlusPlus_Common.h; sourceTree = SOURCE_ROOT; };
@@ -144,7 +144,7 @@
 		E23329D71DF092AD0002B4FE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E23329D61DF092AD0002B4FE /* CPlusPlusCHOPExample.plugin */,
+				E23329D61DF092AD0002B4FE /* AudioAnalyzerCHOP.plugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -167,9 +167,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E23329D51DF092AD0002B4FE /* CPlusPlusCHOPExample */ = {
+		E23329D51DF092AD0002B4FE /* AudioAnalyzerCHOP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E23329DC1DF092AD0002B4FE /* Build configuration list for PBXNativeTarget "CPlusPlusCHOPExample" */;
+			buildConfigurationList = E23329DC1DF092AD0002B4FE /* Build configuration list for PBXNativeTarget "AudioAnalyzerCHOP" */;
 			buildPhases = (
 				E23329D21DF092AD0002B4FE /* Sources */,
 				E23329D31DF092AD0002B4FE /* Frameworks */,
@@ -179,9 +179,9 @@
 			);
 			dependencies = (
 			);
-			name = CPlusPlusCHOPExample;
+			name = AudioAnalyzerCHOP;
 			productName = CPlusPlusCHOPExample;
-			productReference = E23329D61DF092AD0002B4FE /* CPlusPlusCHOPExample.plugin */;
+			productReference = E23329D61DF092AD0002B4FE /* AudioAnalyzerCHOP.plugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +199,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E23329D11DF092AD0002B4FE /* Build configuration list for PBXProject "CPlusPlusCHOPExample" */;
+			buildConfigurationList = E23329D11DF092AD0002B4FE /* Build configuration list for PBXProject "AudioAnalyzerCHOP" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -212,7 +212,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E23329D51DF092AD0002B4FE /* CPlusPlusCHOPExample */,
+				E23329D51DF092AD0002B4FE /* AudioAnalyzerCHOP */,
 			);
 		};
 /* End PBXProject section */
@@ -397,7 +397,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E23329D11DF092AD0002B4FE /* Build configuration list for PBXProject "CPlusPlusCHOPExample" */ = {
+		E23329D11DF092AD0002B4FE /* Build configuration list for PBXProject "AudioAnalyzerCHOP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E23329DA1DF092AD0002B4FE /* Debug */,
@@ -406,7 +406,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E23329DC1DF092AD0002B4FE /* Build configuration list for PBXNativeTarget "CPlusPlusCHOPExample" */ = {
+		E23329DC1DF092AD0002B4FE /* Build configuration list for PBXNativeTarget "AudioAnalyzerCHOP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E23329DD1DF092AD0002B4FE /* Debug */,

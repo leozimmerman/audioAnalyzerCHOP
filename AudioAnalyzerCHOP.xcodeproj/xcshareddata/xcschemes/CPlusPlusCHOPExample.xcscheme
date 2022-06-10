@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E23329D51DF092AD0002B4FE"
-               BuildableName = "CPlusPlusCHOPExample.plugin"
-               BlueprintName = "CPlusPlusCHOPExample"
-               ReferencedContainer = "container:CPlusPlusCHOPExample.xcodeproj">
+               BuildableName = "AudioAnalyzerCHOP.plugin"
+               BlueprintName = "AudioAnalyzerCHOP"
+               ReferencedContainer = "container:AudioAnalyzerCHOP.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,6 +42,7 @@
       allowLocationSimulation = "YES">
       <PathRunnable
          runnableDebuggingMode = "0"
+         BundleIdentifier = "ca.derivative.TouchDesigner"
          FilePath = "/Applications/TouchDesigner.app">
       </PathRunnable>
    </LaunchAction>
@@ -55,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E23329D51DF092AD0002B4FE"
-            BuildableName = "CPlusPlusCHOPExample.plugin"
-            BlueprintName = "CPlusPlusCHOPExample"
-            ReferencedContainer = "container:CPlusPlusCHOPExample.xcodeproj">
+            BuildableName = "AudioAnalyzerCHOP.plugin"
+            BlueprintName = "AudioAnalyzerCHOP"
+            ReferencedContainer = "container:AudioAnalyzerCHOP.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
