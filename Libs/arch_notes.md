@@ -1,0 +1,1 @@
+Universal builds created manually merging arm64 and x86_64 manually compiled binaries of Essentia and fftw3
